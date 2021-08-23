@@ -11,14 +11,14 @@
     
     <form action="">
         <label for="imie">Imię</label><br>
-        <input type="text" id="imie"><br><br>
+        <input type="text" name="name" id="imie"><br><br>
         <label for="nazwisko">Nazwisko</label><br>
-        <input type="text" id="nazwisko"><br><br>
-        <label for="mail">Mail</label><br>
-        <input type="text" id="mail"><br><br>
+        <input type="text"name="surname" id="nazwisko"><br><br>
+        <label for="email">Adres e-mail</label><br>
+        <input type="email" name="email"><br><br>
         <label for="telefon">Telefon</label><br>
-        <input type="text" id="text"><br><br>
-        <label for="miasta">Wybierz miasto:</label><br>
+        <input type="tel" name="telefon"><br><br>
+        <label for="miasta">Wybierz miasto:</label>
         <select name="miasta" id="miasta">
         <option value="krakow">Kraków</option>
         <option value="warszawa">Warszawa</option>
@@ -26,11 +26,12 @@
         </select><br><br>
         <label for="plec">Płeć</label><br>
         <label><input type="radio" name="plec">Kobieta</label><br>
-        <label for=""><input type="radio" name="plec">Mężczyzna</label><br><br>
-        <label for="zgoda">Zgoda na dane osobowe</label><br>
-        <input type="checkbox"><br><br>
+        <label><input type="radio" name="plec">Mężczyzna</label><br><br>
+        <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
+        <input type="checkbox" name="zgoda"><br><br>
         <label for="wiadomosc">Wiadomość</label><br>
-        <textarea rows="20" cols="30" name="wiadomosc"></textarea><br>
+        <textarea rows="20" cols="30" name="wiadomosc"></textarea><br><br>
+        <input type="submit">
     </form>
 
 
