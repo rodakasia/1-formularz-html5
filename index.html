@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Formularz zapisu na szkolenie</h1><br><br>
-    
-    <form action="">
+
+    <form action="#">
         <label for="imie">Imię</label><br>
         <input type="text" name="name" id="imie"><br><br>
+
         <label for="nazwisko">Nazwisko</label><br>
-        <input type="text"name="surname" id="nazwisko"><br><br>
+        <input type="text" name="surname" id="nazwisko"><br><br>
+
         <label for="email">Adres e-mail</label><br>
-        <input type="email" name="email"><br><br>
+        <input type="email" name="email" id="email"><br><br>
+
         <label for="telefon">Telefon</label><br>
-        <input type="tel" name="telefon"><br><br>
+        <input type="tel" name="telefon" id="telefon"><br><br>
+
         <label for="miasta">Wybierz miasto:</label>
         <select name="miasta" id="miasta">
-        <option value="krakow">Kraków</option>
-        <option value="warszawa">Warszawa</option>
-        <option value="gdansk">Gdańsk</option>
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
         </select><br><br>
-        <label for="plec">Płeć</label><br>
+
+        <p>Płeć</p><br>
         <label><input type="radio" name="plec">Kobieta</label><br>
         <label><input type="radio" name="plec">Mężczyzna</label><br><br>
-        <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
-        <input type="checkbox" name="zgoda"><br><br>
+
+
+        <input type="checkbox" name="zgoda" id="zgoda">
+        <label for="zgoda">Zgoda na przetwarzanie danych osobowych</label><br><br>
+
+
         <label for="wiadomosc">Wiadomość</label><br>
-        <textarea rows="20" cols="30" name="wiadomosc"></textarea><br><br>
+        <textarea rows="20" cols="30" name="wiadomosc" id="wiadomosc"></textarea><br><br>
+
         <input type="submit">
     </form>
 
 
 </body>
+
 </html>
